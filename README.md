@@ -28,7 +28,7 @@ from an assumption — and the three are never mixed.
 | **[compliance-document-search](https://github.com/ArslaneSempai-ui/compliance-document-search)** | On 25 questions: 10 right, 9 wrong, and **6 times it said nothing** — every time no answer existed | The two populations overlap and the bar sits inside the overlap. No position separates them; each one trades silences against inventions. |
 
 Node with native TypeScript, no build step, **no runtime dependencies**, everything runs
-locally. **172 tests.** Synthetic data throughout and labelled as such; the regulation is
+locally. **174 tests.** Synthetic data throughout and labelled as such; the regulation is
 real and cited.
 
 ---
