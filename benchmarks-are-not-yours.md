@@ -18,12 +18,17 @@ you measure on your own documents.
 
 ## The ranking of methods flips between corpora
 
-On the compliance corpus, embeddings beat keyword search on first-position accuracy:
-75 % [53–89] against 31 % [15–52], intervals that do not overlap. That is a real result.
+On a technical documentation corpus, the same three methods gave **inverted** results
+against the compliance one: keywords level with embeddings, fusion of the two winning, and an
+optimal chunk size twice as large. Same code, different documents, opposite conclusion.
 
-On a technical documentation corpus, the same three methods gave **inverted** results:
-keywords level with embeddings, fusion of the two winning, and an optimal chunk size twice
-as large. Same code, different documents, opposite conclusion.
+It is worse than that, and I only found out by re-measuring. On the first compliance corpus,
+embeddings beat keyword search on first-position accuracy — 75 % [53–89] against 31 % [15–52],
+intervals disjoint, an ordering I was willing to defend. Re-run on the set the tool ships with
+today, the same comparison gives 68 % [46–85] against 37 % [19–59]. Embeddings still lead every
+row. **But the intervals now overlap, so the ordering is no longer established** — not because
+the engine got worse, but because the questions changed underneath a result I had already
+written down.
 
 What transfers between corpora is the method — how you measure. Not the settings, and not
 the ranking. Anyone quoting you their numbers without having seen your documents is selling
@@ -31,11 +36,11 @@ you someone else's result.
 
 ## At twenty questions, most comparisons are noise
 
-Those two figures carry a second lesson. Twenty evaluation questions put roughly **±18
-points** around any percentage drawn from them. Embeddings beating keywords survives that,
-because the intervals are disjoint. But fusion of the two, at 50 % [30–70], overlaps both —
-it cannot be ranked against either on twenty questions, and saying it can is reading noise
-as signal.
+That is the second lesson, and it is arithmetic rather than opinion. Twenty evaluation
+questions put roughly **±18 points** around any percentage drawn from them; nineteen put a
+little more. At that width, three engines separated by twenty or thirty points cannot be
+ranked at all — every interval in the current table overlaps every other. Reading an ordering
+off it anyway is reading noise as signal.
 
 This matters because twenty is already more than most internal evaluations do. If a
 comparison is presented to you without a sample size and an interval, the honest reading is
