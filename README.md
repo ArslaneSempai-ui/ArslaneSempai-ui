@@ -68,4 +68,4 @@ That rate was never a metric on a slide. It was the size of the pile on my desk,
 is why every tool here is built around what an automated decision costs the people who
 have to live with it.
 
-📍 Athens, relocating to New York · 🇫🇷 🇬🇧 · [LinkedIn](https://www.linkedin.com/in/arslane-chaouche-ramdane-95595a388/)
+📍 New York · 🇫🇷 🇬🇧 · [LinkedIn](https://www.linkedin.com/in/arslane-chaouche-ramdane-95595a388/)
