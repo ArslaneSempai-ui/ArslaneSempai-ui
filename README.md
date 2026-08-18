@@ -27,6 +27,10 @@ from an assumption — and the three are never mixed.
 | **[regression-bench](https://github.com/ArslaneSempai-ui/regression-bench)** | Across three deterministic versions, <!--p:banc.passesAuDebut-->13<!--/p--> → <!--p:banc.passesALaFin-->19<!--/p--> of <!--p:banc.cas-->22<!--/p--> cases — and the third **breaks two** while its score rises | A rising pass rate is not an improvement. The fourth races a clock, so it gets a range and not a score: publishing a single number would be publishing a draw. |
 | **[compliance-document-search](https://github.com/ArslaneSempai-ui/compliance-document-search)** | On <!--p:rag.questions-->25<!--/p--> questions: <!--p:rag.justes-->10<!--/p--> right, <!--p:rag.ratees-->9<!--/p--> wrong, and **<!--p:rag.silencesJustifies-->6<!--/p--> times it said nothing** — every time no answer existed | The two populations overlap and the bar sits inside the overlap. No position separates them; each one trades silences against inventions. |
 
+**Written up:** [Your retrieval benchmark is not yours](benchmarks-are-not-yours.md) — what I
+measured building the search engine, why the ranking of methods flips between corpora, and the
+five questions to ask a vendor before signing.
+
 Node with native TypeScript, no build step, **no runtime dependencies**, everything runs
 locally. **<!--p:portfolio.tests-->174<!--/p--> tests.** Synthetic data throughout and labelled as such; the regulation is
 real and cited.
