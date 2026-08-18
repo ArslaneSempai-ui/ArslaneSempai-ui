@@ -35,6 +35,20 @@ from an assumption — and the three are never mixed.
 measured building the search engine, why the ranking of methods flips between corpora, and the
 five questions to ask a vendor before signing.
 
+## Two apps, built end to end
+
+The tools above are analysis. These are products — designed, built, and taken to the point
+where the remaining work is Apple's review queue rather than mine.
+
+| | What it is | Where it is |
+|---|---|---|
+| **Atlas** | A strength-training companion. Flutter, English and French, everything on the device — sessions, progression, nutrition. | At 1.0, with its privacy policy and terms written in both languages. |
+| **Hisho** | An on-device habit tracker organised around needs rather than streaks. No server, no account, nothing to sign into. | In build: the app runs on device, release preparation is what remains. |
+
+Neither is on the App Store yet, and neither is open source. They are here because a
+portfolio of measurement tools does not say whether the person can ship a product, and
+these are the answer to that question.
+
 Node with native TypeScript, no build step, **no runtime dependencies**, everything runs
 locally. **<!--p:portfolio.tests-->236<!--/p--> tests.** Synthetic data throughout and labelled as such; the regulation is
 real and cited.
