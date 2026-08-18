@@ -50,7 +50,7 @@ portfolio of measurement tools does not say whether the person can ship a produc
 these are the answer to that question.
 
 Node with native TypeScript, no build step, **no runtime dependencies**, everything runs
-locally. **<!--p:portfolio.tests-->236<!--/p--> tests.** Synthetic data throughout and labelled as such; the regulation is
+locally. **<!--p:portfolio.tests-->269<!--/p--> tests.** Synthetic data throughout and labelled as such; the regulation is
 real and cited.
 
 ---
