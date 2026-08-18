@@ -20,15 +20,15 @@ from an assumption — and the three are never mixed.
 
 | | The finding | Where it comes from |
 |---|---|---|
-| **[alert-triage-economics](https://github.com/ArslaneSempai-ui/alert-triage-economics)** | Seven analysts of eight are paid to handle nothing, and the next true positive is **free** down to threshold 0.45 — after which it costs $85,846 | The cost is bought in steps, not units. Funding part of a step buys nothing — not less, nothing. |
+| **[alert-triage-economics](https://github.com/ArslaneSempai-ui/alert-triage-economics)** | Seven analysts of eight are paid to handle nothing, and the next true positive is **free** down to threshold 0.45 — after which it costs $32,476 | The cost is bought in steps, not units. Funding part of a step buys nothing — not less, nothing. |
 | **[process-cycle-time](https://github.com/ArslaneSempai-ui/process-cycle-time)** | 6.4 days end to end, of which **2.3 hours** of actual work. 74 distinct routes through a process that documents one | The mean describes no case: clean files finish in 2.4 days, twice-returned ones take 21.6. A target set on the mean is met by every case that never had a problem. |
 | **[funnel-economics](https://github.com/ArslaneSempai-ui/funnel-economics)** | The biggest leak is **not** the best place to spend: 31.1× against 2.1× per dollar | And the ranking is not stable. "The signup page has already been rebuilt twice" is the most ordinary of four scenarios, and it moves signup from first place to third. |
 | **[kyc-triage-agent](https://github.com/ArslaneSempai-ui/kyc-triage-agent)** | 58 % of files decided without a human and **zero** uncontrolled onboardings, on 400 cases | The threshold was inert: 111 of the escalations come from a rule that is certain, and no slider will move those. |
-| **[regression-bench](https://github.com/ArslaneSempai-ui/regression-bench)** | Across three deterministic versions, 13 → 19 of 22 cases — and the third **breaks two** while its score rises | A rising pass rate is not an improvement. The fourth version races a clock and gets no score at all: publishing one would be publishing a draw. |
+| **[regression-bench](https://github.com/ArslaneSempai-ui/regression-bench)** | Across three deterministic versions, 13 → 19 of 22 cases — and the third **breaks two** while its score rises | A rising pass rate is not an improvement. The fourth races a clock, so it gets a range and not a score: publishing a single number would be publishing a draw. |
 | **[compliance-document-search](https://github.com/ArslaneSempai-ui/compliance-document-search)** | On 25 questions: 10 right, 9 wrong, and **6 times it said nothing** — every time no answer existed | The two populations overlap and the bar sits inside the overlap. No position separates them; each one trades silences against inventions. |
 
 Node with native TypeScript, no build step, **no runtime dependencies**, everything runs
-locally. **147 tests.** Synthetic data throughout and labelled as such; the regulation is
+locally. **169 tests.** Synthetic data throughout and labelled as such; the regulation is
 real and cited.
 
 ---
