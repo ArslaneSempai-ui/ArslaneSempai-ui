@@ -1,0 +1,9 @@
+# Rien n'est construit ici : deux fichiers écrits à la main et publiés tels quels.
+# Ce fichier n'existe donc que pour ce que macOS et les éditeurs déposent tout seuls —
+# et il est écrit AVANT que ça arrive, parce qu'un fichier parti dans l'historique ne
+# se retire pas des clones.
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
